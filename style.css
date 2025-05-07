@@ -1,0 +1,92 @@
+/* Estilo do corpo da página */
+body {
+    background-color: rgb(197, 240, 251);
+    
+}
+
+section:nth-child(even) {
+    margin-top: 50px;
+    padding: 5px;
+    background-color: #99d8dc;
+}
+
+/* Título principal */
+h1 {
+    color: rgb(64, 31, 229);
+    text-align: center;
+}
+
+/* Parágrafo */
+p {
+    font-size: larger;
+    text-align: justify;
+}
+
+/* Botão e mensagem */
+
+#botao {
+    background-color: rgb(2, 151, 165);
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#botao:hover {
+    cursor: pointer;
+    background-color: rgb(76, 213, 226);
+    color: #000000;
+}
+
+#mensagem {
+    font-size: large;
+    text-decoration-line: underline;
+}
+
+/* Imagem da guitarra */
+#img1 {
+    width: 300px;
+    border-radius: 25px;
+}
+
+/* Bandeiras da tabela */
+.bandeiras {
+    width: 50px;
+}
+
+
+/* Logo Diolinux */
+#logo {
+    width: 100px;
+}
+
+/* Lista */
+ul li{
+    margin: 15px;
+    font-size: 18px;
+}
+
+/* Ttabela dos paises */
+table {
+    width: 50%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+
+tr:nth-child(odd) {
+    background-color: #b0fa7cb3;
+}
+
+/* células da tabela */
+td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+  }
+
+
+/* Efeito mouse hover no link */
+a:hover {
+    color: #fc0000;
+    text-decoration: underline;
+}
