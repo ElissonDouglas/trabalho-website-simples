@@ -18,6 +18,7 @@ h1 {
 
 /* Parágrafo */
 p {
+    padding: 10px;
     font-size: larger;
     text-align: justify;
 }
@@ -69,6 +70,7 @@ ul li{
 /* Ttabela dos paises */
 table {
     width: 50%;
+    box-shadow: 4px 4px 10px 0px black;
     border-collapse: collapse;
     font-family: Arial, sans-serif;
   }
